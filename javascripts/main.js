@@ -15,8 +15,8 @@ $(document).ready(function(){
 								url:"text/"+ii[1],
 								spanid:ii[0],
 								success:function(data){
-									$(".id"+this.spanid).children('inner').append(data) 
-									$(".id"+this.spanid).slideDown(200)
+									$("#id"+this.spanid).children('inner').append(data) 
+									$("#id"+this.spanid).slideDown(200)
 								}})
 
 						}}}   }}
@@ -35,8 +35,8 @@ $(document).ready(function(){
 								url:"text/"+ii[1],
 								spanid:ii[0],
 								success:function(data){
-									$(".id"+this.spanid).children('inner').append(data) 
-									$(".id"+this.spanid).slideDown(200)
+									$("#id"+this.spanid).children('inner').append(data) 
+									$("#id"+this.spanid).slideDown(200)
 								}})
 
 						}   }
