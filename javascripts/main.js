@@ -29,7 +29,7 @@ $(document).ready(function(){
 					for(i in a) {
 						if(a[i]!=''){
 							{ii=a[i].split(" ")
-							$(".maintext").append("<section class=id"+ii[0]+" id='main-content'><h1 class='flip'><a name='"+ii[0]+"' class='anchor' href='#"+ii[0]+"'><span>"+ii[2]+"</span></a></h1><inner></inner></section>")
+							$(".maintext").append("<div  style="margin: 10%;" class=id"+ii[0]+" id='main-content'><h1 class='flip'><a name='"+ii[0]+"' class='anchor' href='#"+ii[0]+"'><span>"+ii[2]+"</span></a></h1><inner></inner></div>")
 							$(".id"+ii[0]).slideUp(0)
 							$.ajax({
 								url:"text/"+ii[1],
